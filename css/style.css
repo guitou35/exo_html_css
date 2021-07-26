@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    margin: 0.25rem;
+}
+
+.wrap-icone {
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.wrap-barre {
+    border-left: 3px solid black;
+    height: 2rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.wrap-content {
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.color-blue {
+    background: deepskyblue;
+}
+
+.color-red {
+    background: red;
+}
+
+.color-yellow {
+    background: yellow;
+}
+
+
+
